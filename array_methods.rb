@@ -49,15 +49,27 @@ We know these methods are exactly the same as JavaScript
 # array/string.reverse = evaluates to a new reverse version of the array or string
 # array/string.reverse! = reverses an array/string in place
 
-arr = [1,2,3,4,5]
+# arr = [1,2,3,4,5]
 
 # p arr
 # p arr.reverse!
 # p arr
 
-def is_palindrome(s)
-    return s.downcase == s.reverse.downcase
-end
+# def is_palindrome(s)
+#     return s.downcase == s.reverse.downcase
+# end
 
-p is_palindrome('Racecar')
-p is_palindrome('Rocky')
+# p is_palindrome('Racecar')
+# p is_palindrome('Rocky')
+
+# ------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------
+
+# array/string slicing
+#   array[startIdx..endIdx] - grabs elements from startIdx to endIdx (inclusive)
+#   array[startIdx...endIdx] - grabs elements from startIdx to endIdx (excluding the element at endIdx)
+
+
+
+arr = ["a", "b", "c", "d", "e"]
+p arr[1..-1]
