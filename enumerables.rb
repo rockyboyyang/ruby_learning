@@ -50,5 +50,4 @@ months = ["Jan", "Feb", "Mar", "Apr", "May"]
 
 # p fizzBuzz(31)
 
-
-12.times { p "hi" }
+4.times { p "hi" }
