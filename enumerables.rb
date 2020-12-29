@@ -8,6 +8,7 @@
 
 
 months = ["Jan", "Feb", "Mar", "Apr", "May"]
+nums = [1,2,3,4,5,6]
 
 # months.each { |month| p month }
 
@@ -22,7 +23,9 @@ months = ["Jan", "Feb", "Mar", "Apr", "May"]
 #     p "-----"
 # end
 
-
+# p months.map { |ele| ele.upcase + "!"}
+# p nums.select { |ele| ele % 2 == 0 }
+p (2...10).each |ele|
 
 
 
@@ -50,4 +53,4 @@ months = ["Jan", "Feb", "Mar", "Apr", "May"]
 
 # p fizzBuzz(31)
 
-4.times { p "hi" }
+# 4.times { p "hi" }
